@@ -1,6 +1,6 @@
 {
   "name": "clicky-game",
-  "homepage": "https://github.com/NadireGh/Clicky-Game.git.",
+  "homepage": "https://nadiregh.github.io/Clicky-Game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -29,5 +31,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "a front end react app memory game!  Try and click all the characters without repeating yourself. try out the game here:  * [Clicky Game](https://github.com/NadireGh/Clicky-Game.git)",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadireGh/Clicky-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadireGh/Clicky-Game/issues"
   }
+ 
 }
