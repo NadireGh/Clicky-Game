@@ -2,7 +2,7 @@
 
 a front end react app memory game!  Try and click all the characters without repeating yourself.
 try out the game here: 
-* [Clicky Game](https://github.com/NadireGh/Clicky-Game.git)
+* [Clicky Game](https://nadiregh.github.io/Clicky-Game/)
 
 ## ScreenShots
 
